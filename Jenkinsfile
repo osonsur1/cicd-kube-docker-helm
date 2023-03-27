@@ -5,7 +5,7 @@ pipeline {
         jdk "OracleJDK8"
     }
     environment {
-        registry = "scoobuntu10/vproappdock"
+        registry = "imranvisualpath/vproappdock"
         registryCredential = "dockerhub"
     }
     stages{
